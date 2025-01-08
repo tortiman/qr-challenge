@@ -36,16 +36,72 @@ Proceso de creacion:
 -Creación de la estructura html:
 -Creacion del contenedor, clase .cuadro, ahi se ubica el codigo QR con los textos. - Creacion de la clase .qr donde va ubicada la imagen. - Creacion de la clase imagen .imagen donde va la imagen, que a su vez tambien tiene una clase .imagen-qr. - Creacion de la clase .titulo donde va el texto principal y de mas tamaño - Creacion de la clase .parrafo donde va el texto secundario y de menos tamaño
 
-- Creacion de los estilos entre las etiquetas style en el head del html.
+- Creacion de los estilos entre las etiquetas style en el head del html:
+  body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  }
+  .cuadro {
+  width: 950px;
+  height: 670px;
+  background-color: #d6e2f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+      .qr {
+        width: 230px;
+        height: 355px;
+        background-color: white;
+        border-radius: 15px;
+        position: absolute;
+        text-align: center;
+        box-shadow: 0px 15px 10px 0px rgba(0, 0, 0, 0.04);
+      }
+
+      .imagen-qr {
+        position: relative;
+        width: 207px;
+        height: 207px;
+        border-radius: 7px;
+        margin-top: 6px;
+        margin-left: 6px;
+      }
+
+      .titulo {
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+
+      .parrafo {
+        font-size: 10.5px;
+        color: hsl(215, 15%, 48%);
+        margin-top: 10px;
+        margin-left: 24px;
+        margin-right: 24px;
+        line-height: 1.4;
+        font-weight: 400;
+      }
+
+      @media (min-width: 375px) and (max-width: 700px) {
+        .cuadro {
+          width: 375px;
+        }
+      }
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - Mobile-first workflow
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -61,12 +117,6 @@ To see how you can add code snippets, see below:
 .proud-of-this-css {
   color: papayawhip;
 }
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
@@ -87,12 +137,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
