@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -19,17 +19,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+Diseño de una pagina web que contiene un codigo qr que enlaza con frontend mentor, tiene un texto que denomino titulo y otro texto que denomino parrafo
+
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+Creacion de una carpeta screenshots donde estan todas las capturas de pantalla con las caracteristicas de las clases presentes en el html.
 
 ### Links
 
@@ -38,16 +32,18 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+Proceso de creacion:
+-Creación de la estructura html:
+-Creacion del contenedor, clase .cuadro, ahi se ubica el codigo QR con los textos. - Creacion de la clase .qr donde va ubicada la imagen. - Creacion de la clase imagen .imagen donde va la imagen, que a su vez tambien tiene una clase .imagen-qr. - Creacion de la clase .titulo donde va el texto principal y de mas tamaño - Creacion de la clase .parrafo donde va el texto secundario y de menos tamaño
+
+- Creacion de los estilos entre las etiquetas style en el head del html.
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -60,15 +56,17 @@ To see how you can add code snippets, see below:
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  console.log("🎉");
+};
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
