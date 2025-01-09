@@ -27,8 +27,7 @@ Creacion de una carpeta screenshots donde estan todas las capturas de pantalla c
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [QR code component solution](https://github.com/tortiman/qr-challenge)
 
 ## My process
 
@@ -36,7 +35,8 @@ Proceso de creacion:
 -Creación de la estructura html:
 -Creacion del contenedor, clase .cuadro, ahi se ubica el codigo QR con los textos. - Creacion de la clase .qr donde va ubicada la imagen. - Creacion de la clase imagen .imagen donde va la imagen, que a su vez tambien tiene una clase .imagen-qr. - Creacion de la clase .titulo donde va el texto principal y de mas tamaño - Creacion de la clase .parrafo donde va el texto secundario y de menos tamaño
 
-- Creacion de los estilos entre las etiquetas style en el head del html:
+- Creacion de los estilos en el fichero styles.css:
+
   body {
   background-color: gray;
   display: flex;
@@ -101,7 +101,8 @@ Proceso de creacion:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Mobile-first workflow
+- Visual studio code
+- Framer
 
 ### What I learned
 
@@ -111,11 +112,10 @@ Proceso de creacion:
 4. Deploy the project in Github.
 5. Create a custom **README.md**
 6. Submit my solution.
-   7 Share my solution.
-   **Note: Delete this note and the content within this section and replace with your own learnings.**
+7. Share my solution.
 
 ## Author
 
-## Acknowledgments
+- Frontend Mentor - @tortiman
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+## Acknowledgments
